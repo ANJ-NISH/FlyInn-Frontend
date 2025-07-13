@@ -103,7 +103,7 @@ const searchFunc=()=>
     <div className="flex flex-wrap justify-center sm:justify-between gap-4 mb-12">
       <Link to="/searchresult" state={`Jaipur`} className="h-64 w-full sm:w-[48%] object-cover rounded-lg">
       <img
-        src="../public/trenddest/jaipur.png"
+        src="/trenddest/jaipur.png"
         alt="Amer Fort"
         
       />
@@ -111,7 +111,7 @@ const searchFunc=()=>
       
       <Link to="/searchresult" state={`Delhi`} className="h-64 w-full sm:w-[48%] object-cover rounded-lg">
       <img
-        src="../public/trenddest/delhi.png"
+        src="/trenddest/delhi.png"
         alt="Humayun's Tomb"
       />
       </Link>
@@ -122,21 +122,21 @@ const searchFunc=()=>
     <div className="flex flex-wrap justify-center sm:justify-between gap-4">
     <Link to="/searchresult" state={`Agra`} className="h-64 w-full sm:w-[32%] object-cover rounded-lg">
     <img
-        src="../public/trenddest/agra.png"
+        src="/trenddest/agra.png"
         alt="Taj Mahal"
       />
     </Link>
       
     <Link to="/searchresult" state={`Udaipur`} className="h-64 w-full sm:w-[32%] object-cover rounded-lg">
     <img
-        src="../public/trenddest/udaipur.png"
+        src="/trenddest/udaipur.png"
         alt="Pichola Lake"
       />
     </Link>
       
     <Link to="/searchresult" state={`Jodhpur`} className="h-64 w-full sm:w-[32%] object-cover rounded-lg">
       <img
-        src="../public/trenddest/jodhpur.png"
+        src="/trenddest/jodhpur.png"
         alt="Jodhpur Fort"
       />
       </Link>
@@ -155,7 +155,7 @@ const searchFunc=()=>
       <div className='h-52 w-[48%] sm:w-[24%] flex flex-col justify-start'>
       <Link to="/allhotels">
       <img
-        src="../public/property/hotel.png"
+        src="/property/hotel.png"
         alt="hotel"
         className="h-full w-full object-cover rounded-lg"
       />
@@ -168,7 +168,7 @@ const searchFunc=()=>
       <div className='h-52 w-[48%] sm:w-[24%] flex flex-col justify-start'>
         <Link to="/allresorts">
         <img
-        src="../public/property/resort.png"
+        src="/property/resort.png"
         alt="resort"
         className="h-full w-full object-cover rounded-lg"
       />
@@ -179,7 +179,7 @@ const searchFunc=()=>
       <div className='h-52 w-[48%] sm:w-[24%] flex flex-col justify-start'>
       <Link to="/allvillas">
       <img
-        src="../public/property/villas.png"
+        src="/property/villas.png"
         alt="villas"
         className="h-full w-full object-cover rounded-lg"
       />
@@ -190,7 +190,7 @@ const searchFunc=()=>
       <div className='h-52 w-[48%] sm:w-[24%] flex flex-col justify-start'>
       <Link to="/allhostels">
       <img
-        src="../public/property/hostels.png"
+        src="/property/hostels.png"
         alt="hostel"
         className="h-full w-full object-cover rounded-lg"
       />
