@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const images = [
   { src: "/cities/delhi.PNG", title: "Delhi" },
-  { src: "/cities/gurugram.PNG", title: "Gurugram" },
+  { src: "/cities/Gurugram.PNG", title: "Gurugram" },
   { src: "/cities/noida.PNG", title: "Noida" },
   { src: "/cities/jaipur.PNG", title: "Jaipur" },
   { src: "/cities/mumbai.PNG", title: "Mumbai" },
