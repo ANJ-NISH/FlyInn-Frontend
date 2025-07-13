@@ -6,16 +6,16 @@ import "swiper/css/navigation";
 import { Link } from "react-router-dom";
 
 const images = [
-  { src: "/cities/delhi.png", title: "Delhi" },
-  { src: "/cities/gurugram.png", title: "Gurugram" },
-  { src: "/cities/noida.png", title: "Noida" },
-  { src: "/cities/jaipur.png", title: "Jaipur" },
-  { src: "/cities/mumbai.png", title: "Mumbai" },
-  { src: "/cities/rishikesh.png", title: "Rishikesh" },
-  { src: "/cities/goa.png", title: "Goa" },
-  { src: "/cities/varanasi.png", title: "Varanasi" },
-  { src: "/cities/agra.png", title: "Agra" },
-  { src: "/cities/greaternoida.png", title: "Greater Noida" },
+  { src: "/cities/delhi.PNG", title: "Delhi" },
+  { src: "/cities/gurugram.PNG", title: "Gurugram" },
+  { src: "/cities/noida.PNG", title: "Noida" },
+  { src: "/cities/jaipur.PNG", title: "Jaipur" },
+  { src: "/cities/mumbai.PNG", title: "Mumbai" },
+  { src: "/cities/rishikesh.PNG", title: "Rishikesh" },
+  { src: "/cities/goa.PNG", title: "Goa" },
+  { src: "/cities/varanasi.PNG", title: "Varanasi" },
+  { src: "/cities/agra.PNG", title: "Agra" },
+  { src: "/cities/greaternoida.PNG", title: "Greater Noida" },
 ];
 
 const ImageCarousel = () => {
