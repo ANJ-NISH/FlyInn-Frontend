@@ -10,7 +10,7 @@ export const HotelsPage = () => {
   useEffect(() => {
     async function getAllData() {
       try {
-        const response = await axios.get(`http://localhost:5000/hotels/getAll`, { withCredentials: true });
+        const response = await axios.get(`https://flyinn-backend.onrender.com/hotels/getAll`, { withCredentials: true });
         setHotelsArr(response.data.allHotels);
         setDataLoading(false);
       } catch (error) {

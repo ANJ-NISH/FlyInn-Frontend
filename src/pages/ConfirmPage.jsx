@@ -65,7 +65,7 @@ export const ConfirmPage=()=>
 
       try
       {
-        const res=await axios.post(`http://localhost:5000/hotels/payment`, {formData, hotelinfo,fstartDate, fendDate,adults,children,rooms});
+        const res=await axios.post(`https://flyinn-backend.onrender.com/hotels/payment`, {formData, hotelinfo,fstartDate, fendDate,adults,children,rooms});
         alert(res.data.message);
         navigate('/');
       }

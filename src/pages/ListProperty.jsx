@@ -42,7 +42,7 @@ export const ListProperty=()=>
 
     try
     {
-      const response=await axios.post(`http://localhost:5000/accommodation/upload`, finalForm, {
+      const response=await axios.post(`https://flyinn-backend.onrender.com/accommodation/upload`, finalForm, {
         headers: { 'Content-Type': 'multipart/form-data' }
       });
       console.log(response);

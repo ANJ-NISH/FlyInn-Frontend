@@ -176,7 +176,7 @@ export const SearchResults=()=>
         {
           try
           {
-            const response=await axios.get(`http://localhost:5000/accommodation/searchresult/${city}`, {withCredentials: true});
+            const response=await axios.get(`https://flyinn-backend.onrender.com/accommodation/searchresult/${city}`, {withCredentials: true});
             // console.log(response);
             setAccs(response.data.cityAccommodations);
             setDuplaccs(response.data.cityAccommodations);

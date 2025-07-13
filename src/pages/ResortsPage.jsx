@@ -16,7 +16,7 @@ export const ResortsPage=()=>
         {
             try
             {
-                const response= await axios.get(`http://localhost:5000/hotels/getAllResorts`, {withCredentials: true});
+                const response= await axios.get(`https://flyinn-backend.onrender.com/hotels/getAllResorts`, {withCredentials: true});
                 setresortsArr(response.data.allResorts);
                 setDataLoading(false);
             }

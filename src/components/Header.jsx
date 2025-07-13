@@ -27,7 +27,7 @@ export const Header = () => {
  {
   try
   {
-    const response=await axios.get(`http://localhost:5000/auth/logout`, {withCredentials: true});
+    const response=await axios.get(`https://flyinn-backend.onrender.com/auth/logout`, {withCredentials: true});
     localStorage.setItem("signstate", JSON.stringify(false));
     navigate("/");
     setSignstate(false);
@@ -52,7 +52,7 @@ export const Header = () => {
     {
       if(signstate)
       {
-        const response=await axios.get(`http://localhost:5000/auth/userinfo`,{withCredentials: true});
+        const response=await axios.get(`https://flyinn-backend.onrender.com/auth/userinfo`,{withCredentials: true});
         let avatarvar=response.data.userinfo.avatar;
         if(response.data.userinfo.avatar===undefined)
         {

@@ -9,7 +9,7 @@ export const FeedbackForm=({hotelname, setIsOpen, rating, setRating, comment, se
         
             try
             {
-              const response=await axios.post(`http://localhost:5000/hotels/rateAcc/${hotelname}`, {rating, comment},{withCredentials: true});
+              const response=await axios.post(`https://flyinn-backend.onrender.com/hotels/rateAcc/${hotelname}`, {rating, comment},{withCredentials: true});
               
               console.log(response);
             }

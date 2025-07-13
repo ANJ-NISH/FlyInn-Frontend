@@ -41,7 +41,7 @@ export const Sign = () => {
 
 
   const handleGoogleLogin = () => {
-    window.location.href = "http://localhost:5000/auth/google"; // Redirect to backend
+    window.location.href = "https://flyinn-backend.onrender.com/auth/google"; // Redirect to backend
 
     localStorage.setItem("signstate", JSON.stringify(true));
     setSignstate(true);
@@ -52,7 +52,7 @@ export const Sign = () => {
     try
     {
 
-      const response=await axios.post(`http://localhost:5000/registerorlogin`,{name, email, password}, {withCredentials: true});
+      const response=await axios.post(`https://flyinn-backend.onrender.com/registerorlogin`,{name, email, password}, {withCredentials: true});
       if(response.status===400)
       {
         alert("Wrong user credentials");

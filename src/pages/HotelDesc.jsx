@@ -51,7 +51,7 @@ export const HotelDesc = () => {
         {
             try
             {
-               const response=await axios.get(`http://localhost:5000/hotels/getindi/${hotelname}`,{withCredentials: true} );
+               const response=await axios.get(`https://flyinn-backend.onrender.com/hotels/getindi/${hotelname}`,{withCredentials: true} );
             //    console.log(response.data.indihotel);
                setHotelinfo(response.data.indihotel);
                setCommentData([response.data.indihotel[0].rating, response.data.indihotel[0].reviews]);

@@ -16,7 +16,7 @@ export const VillasPage=()=>
         {
             try
             {
-                const response= await axios.get(`http://localhost:5000/hotels/getAllVillas`, {withCredentials: true});
+                const response= await axios.get(`https://flyinn-backend.onrender.com/hotels/getAllVillas`, {withCredentials: true});
                 setresortsArr(response.data.allVillas);
                 setDataLoading(false);
             }
